@@ -108,7 +108,7 @@ a .icons:hover{
 }
 
 /** Header mobile **/
-@media screen and (max-width:750px){
+@media screen and (max-width:1000px){
     #img_menu{
         margin-left:5%;
         display:flex;
@@ -203,8 +203,8 @@ a .icons:hover{
     }
 }
 .logo{
-    width:9vw;  
-    height:18vh;
+   width:150px;
+   height:150px;
     border-radius: 100px;
 }
 .info_headers{
@@ -232,20 +232,21 @@ a .icons:hover{
         flex-direction:column-reverse;
     }
     #banner{
-        width:100%;
+        width:95%;
         height:40%;
     }
     .sobre{
-        width:100%;
+        width:95%;
         height:40%;
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
+        padding-top: 1%;
     }
     .info_headers{
         height:100%;
     }
     .logo{
-        height:50%;
-        width: 30%;
+        height:150px;
+        width: 150px;
     }
 }
